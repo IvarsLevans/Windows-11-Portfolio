@@ -1,7 +1,7 @@
 export const VsCodeApp = () => {
   return (
     <iframe
-      src="https://github1s.com/PiyushSuthar/Windows-11-Web"
+      src="https://github1s.com/IvarsLevans/Windows-11-Portfolio"
       title="Windows 11 Web"
       width="100%"
       height="100%"
