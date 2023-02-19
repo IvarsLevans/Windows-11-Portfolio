@@ -52,13 +52,13 @@ export const PinnedApps: PinnedApp[] = [{
     title: "Weather",
     icon: WeatherIcon
 }, {
-    title: "Whiteboard",
+    title: "WhiteBoard",
     icon: WhiteBoardIcon
 }, {
     title: "Solitare",
     icon: SolitareIcon
 }, {
-    title: "Teams",
+    title: "MSTeams",
     icon: MSTeamsIcon
 }, {
     title: "VSCode",

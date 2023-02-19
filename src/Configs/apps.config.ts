@@ -32,25 +32,25 @@ export const AppsConfig: App = {
         pinned: true
     },
 
-    MSWord: {
+    "Word": {
         title: "Word",
         isActive: false,
         icon: MSWordIcon,
         pinned: true
     },
-    MSExcel: {
+    "Excel": {
         title: "Excel",
         isActive: false,
         icon: MSExcelIcon,
         pinned: true
     },
-    MSPowerPoint: {
+    "PowerPoint": {
         title: "PowerPoint",
         isActive: false,
         icon: MSPPTIcon,
         pinned: true
     },
-    Brave: {
+    "Brave": {
         title: "Brave",
         isActive: false,
         icon: BraveIcon,

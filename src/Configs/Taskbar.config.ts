@@ -7,5 +7,5 @@ export interface icon {
 }
 export const ICONS: icon[] = [{
   name: "Task Manager",
-  url: taskmanager
+  url: taskmanager,
 }]
