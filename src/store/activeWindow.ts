@@ -7,7 +7,7 @@ type Apps = keyof typeof AppsConfig
 //     OpenApps.set({
 //         "file-explorer": false,
 //         "ms-store": false,
-//         edge: false
+//         brave: false
 //     })
 // })
 export const OpenApps = createStore<App>(() => {
@@ -15,7 +15,7 @@ export const OpenApps = createStore<App>(() => {
 })
 
 export const ActiveApp = createStore<Apps>(() => {
-    ActiveApp.set("edge")
+    ActiveApp.set("brave")
 })
 
 export const openApp = (app_id: string) => {

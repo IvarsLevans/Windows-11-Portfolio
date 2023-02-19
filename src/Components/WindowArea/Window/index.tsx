@@ -23,7 +23,6 @@ interface Props {
   width?: number;
 }
 
-// Taken from puruVJ's macos web code :[]
 export function randint(lower: number, upper: number) {
   if (lower > upper) [lower, upper] = [upper, lower];
 
