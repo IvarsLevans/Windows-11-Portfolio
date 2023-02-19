@@ -22,6 +22,7 @@ export type PinnedApp = {
     url?: string;
     pinned?: boolean
 }
+
 export const PinnedApps: PinnedApp[] = [{
     title: "GitHub",
     icon: GitHubIcon,

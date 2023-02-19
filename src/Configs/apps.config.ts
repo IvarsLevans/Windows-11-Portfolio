@@ -1,8 +1,16 @@
 import file_explorer from '../assets/icons/taskbar/file_explorer.webp'
 import { MSWordIcon, MSExcelIcon, MSPPTIcon, BraveIcon, SettingsIcon, VSCodeIcon } from '../assets/icons/startmenu'
-import { ControlPanel, RecycleBin, ThisPC } from '../assets/icons/Desktop'
+import { RecycleBin } from '../assets/icons/Desktop'
 import { Apps } from './startMenu.config'
 import { VsCodeApp } from '../Apps'
+
+import {
+    MSGrooveIcon,
+    WeatherIcon,
+    WhiteBoardIcon,
+    SolitareIcon,
+    MSTeamsIcon,
+} from "../assets/icons/startmenu"
 
 export type App = {
     [key: string]: {
@@ -53,16 +61,6 @@ export const AppsConfig: App = {
         isActive: false,
         icon: RecycleBin
     },
-    "control-panel": {
-        title: "Control Panel",
-        isActive: false,
-        icon: ControlPanel
-    },
-    "this-pc": {
-        title: "This PC",
-        isActive: false,
-        icon: ThisPC
-    },
     "settings": {
         title: "Settings",
         isActive: false,
@@ -75,6 +73,36 @@ export const AppsConfig: App = {
         Component: VsCodeApp,
         height: 500,
         width: 800
+    },
+    "MSGroove": {
+        title: "MSGroove",
+        isActive: false,
+        icon: MSGrooveIcon
+    },
+    "Weather": {
+        title: "Weather",
+        isActive: false,
+        icon: WeatherIcon
+    },
+    "Music": {
+        title: "MSGroove",
+        isActive: false,
+        icon: MSGrooveIcon
+    },
+    "WhiteBoard": {
+        title: "WhiteBoard",
+        isActive: false,
+        icon: WhiteBoardIcon
+    },
+    "Solitare": {
+        title: "Solitare",
+        isActive: false,
+        icon: SolitareIcon
+    },
+    "MSTeams": {
+        title: "MSTeams",
+        isActive: false,
+        icon: MSTeamsIcon
     },
     ...Apps,
 } as const
