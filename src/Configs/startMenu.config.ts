@@ -1,12 +1,12 @@
+import { MSWordIcon, MSExcelIcon, MSPPTIcon, BraveIcon, SettingsIcon, VSCodeIcon } from '../assets/icons/startmenu'
+
 import {
-    BraveIcon,
+} from "../assets/icons/startmenu"
+
+import {
     GitHubIcon,
-    MSPPTIcon,
-    MSWordIcon,
     TwitterIcon,
-    MSExcelIcon,
     MSGrooveIcon,
-    VSCodeIcon,
     WeatherIcon,
     WhiteBoardIcon,
     SolitareIcon,
