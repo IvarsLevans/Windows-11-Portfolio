@@ -1,4 +1,4 @@
-import { ControlPanel, RecycleBin, ThisPC } from "../assets/icons/Desktop";
+import { RecycleBin } from "../assets/icons/Desktop";
 import { VSCodeIcon } from "../assets/icons/startmenu";
 
 export interface Item {
@@ -14,7 +14,7 @@ export const DesktopItems: Item[] = [{
     appId: "recycle-bin",
     context_menu_id: "recycle-bin-ctx-menu"
 }, {
-    name: "Vs Code",
+    name: "VSCode",
     icon: VSCodeIcon,
-    appId: "vscode"
+    appId: "vscode",
 }]

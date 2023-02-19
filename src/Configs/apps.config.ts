@@ -1,10 +1,14 @@
 import file_explorer from '../assets/icons/taskbar/file_explorer.webp'
-import { MSWordIcon, MSExcelIcon, MSPPTIcon, BraveIcon, SettingsIcon, VSCodeIcon } from '../assets/icons/startmenu'
 import { RecycleBin } from '../assets/icons/Desktop'
 import { Apps } from './startMenu.config'
 import { VsCodeApp } from '../Apps'
-
 import {
+    MSWordIcon, 
+    MSExcelIcon, 
+    MSPPTIcon, 
+    BraveIcon, 
+    SettingsIcon,
+    VSCodeIcon,
     MSGrooveIcon,
     WeatherIcon,
     WhiteBoardIcon,

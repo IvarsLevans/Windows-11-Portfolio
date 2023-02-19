@@ -1,9 +1,10 @@
-import { MSWordIcon, MSExcelIcon, MSPPTIcon, BraveIcon, SettingsIcon, VSCodeIcon } from '../assets/icons/startmenu'
-
 import {
-} from "../assets/icons/startmenu"
-
-import {
+    MSWordIcon, 
+    MSExcelIcon, 
+    MSPPTIcon, 
+    BraveIcon, 
+    SettingsIcon, 
+    VSCodeIcon,
     GitHubIcon,
     TwitterIcon,
     MSGrooveIcon,
