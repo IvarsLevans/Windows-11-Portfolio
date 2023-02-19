@@ -63,7 +63,6 @@ export const PinnedApps: PinnedApp[] = [{
     title: "VSCode",
     icon: VSCodeIcon,
     appId: "vscode"
-}, {
 }]
 
 export const Apps = PinnedApps.reduce((acc, app) => {
