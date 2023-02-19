@@ -1,5 +1,4 @@
 import { useStore } from "nanostores/preact";
-import { ICONS } from "../../Configs/Taskbar.config";
 import { ThemeStore, toggleTheme } from "../../store/darkMode";
 import styles from "./taskbar.module.css";
 import { TaskBarButton } from "./TaskbarButton";
