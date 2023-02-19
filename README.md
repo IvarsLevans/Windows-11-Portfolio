@@ -5,8 +5,8 @@ The Windows 11 Portfolio is a web application designed to showcase projects in a
 
 ### Screenshots
 <p align="center">
-<img src="https://user-images.githubusercontent.com/78017471/219952808-da1cda3c-ccdd-4177-a2c2-4046b15f0244.png" width="500" />
-<img src="https://user-images.githubusercontent.com/78017471/219952806-4a3f837d-a942-4827-b0ef-d49b6c83c24e.png" width="500" />
+<img src="https://user-images.githubusercontent.com/78017471/219952808-da1cda3c-ccdd-4177-a2c2-4046b15f0244.png" width="400" />
+<img src="https://user-images.githubusercontent.com/78017471/219952806-4a3f837d-a942-4827-b0ef-d49b6c83c24e.png" width="400" />
 </p>
 
 ### Technology Stack
