@@ -1,0 +1,25 @@
+name: Take Screenshot
+on:
+  push:
+    branches:
+      - main
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+          sudo apt-get install -y nodejs
+          npm install puppeteer
+      - name: Take screenshot
+        run: |
+          node screenshot.js
+      - name: Save screenshot
+        uses: actions/upload-artifact@v2
+        with:
+          name: screenshot
+          path: screenshot.png
